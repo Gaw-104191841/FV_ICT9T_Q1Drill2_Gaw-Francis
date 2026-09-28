@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill2</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        section{
+            display: block;
+            margin: auto;
+            width: 600ps;
+            height: auto;
+            background-color: rgb(158, 177, 241);
+            box-shadow: 0px 4px 12px rgb(45, 58, 124);
+            padding: 15px;
+        }
+        header{
+            text-align: center;
+        }
+        img{
+            height: 300px;
+            width: 300px;
+        }
+        select, input[type="submit"], textarea{
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rate a Movie</h1>
+        <img src="https://www.bing.com/images/search?view=detailV2&ccid=tqmQgcjo&id=8C55F09971CB9EFB971425B955F7B34CC8C61EDD&thid=OIP.tqmQgcjoBxS1v1ZpujoLgAHaHV&mediaurl=https%3a%2f%2fvectorified.com%2fimages%2fmovie-icon-png-11.png&exph=2945&expw=2971&q=movie+icon+png&mode=overlay&FORM=IQFRBA&ck=91A1A1CF85314E5429AA02C35E3B2B42&selectedIndex=0&idpp=serp">
+        <p>Honest thoughts about the historical-based movie.</p>
+    </header>
+    <br>
+
+    <section>
+        <form action="">
+            <label for="movie">Select a movie</label>
+            <select id="movie" name="movie">
+                <option value="">Select a Movie</option>
+                <option value="movie1">Schindler's List</option>
+                <option value="movie2">Saving Private Ryan</option>
+                <option value="movie3">Dunkirk</option>
+            </select>
+            <br>
+
+            <label for="Genre">Genre/s</label>
+            <br>
+            <input type="checkbox" id="Genre1" name="genre1" value="genre1">
+             <label for="Genre1">Action</label>
+            <input type="checkbox" id="Genre2" name="genre2" value="genre2">
+             <label for="Genre2">Comedy</label>
+            <input type="checkbox" id="Genre3" name="genre3" value="genre3">
+             <label for="Genre3">Horror</label>
+            <input type="checkbox" id="Genre4" name="genre4" value="genre4">
+             <label for="Genre4">Sci-Fi</label>
+            <input type="checkbox" id="Genre5" name="genre5" value="genre5">
+             <label for="Genre5">Other</label>
+
+             <br><br>
+             <label for="rate">Rating</label>
+             <br>
+             <input type="radio" id="rate1" name="rating" value="rate1">
+              <label for="rate1">💫</label>
+             <input type="radio" id="rate2" name="rating" value="rate2">
+              <label for="rate2">💫💫</label>
+             <input type="radio" id="rate3" name="rating" value="rate3">
+              <label for="rate3">💫💫💫</label>
+             <input type="radio" id="rate4" name="rating" value="rate4">
+              <label for="rate4">💫💫💫💫</label>
+             <input type="radio" id="rate5" name="rating" value="rate5">
+              <label for="rate5">💫💫💫💫💫</label>
+             <br><br>
+
+             <textarea id="review" name="review" cols="40" rows="20" placeholder="Write your review here..."></textarea>
+
+             <br><br>
+
+             <input type="submit" id="submit" name="submit" value="Submit a Review">
+
+             <br>
+             For more review tips, click <a href="https://darkskiesfilm.com/how-do-i-rate-a-movie/" target="_blank">here.</a>
+
+        </form>
+    </section>
+
+</body>
+</html>
